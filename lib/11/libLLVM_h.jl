@@ -1655,7 +1655,6 @@ end
     LLVMModuleFlagBehaviorOverride = 3
     LLVMModuleFlagBehaviorAppend = 4
     LLVMModuleFlagBehaviorAppendUnique = 5
-    LLVMModuleFlagBehaviorMax = 6
 end
 
 @cenum LLVMAttributeIndex::Int32 begin
