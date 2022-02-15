@@ -20,7 +20,7 @@ end
 export backends
 
 const libllvm_backends = [:AArch64, :AMDGPU, :ARC, :ARM, :AVR, :BPF, :Hexagon, :Lanai,
-                          :MSP430, :Mips, :NVPTX, :PowerPC, :RISCV, :Sparc, :SystemZ,
+                          :Metal, :MSP430, :Mips, :NVPTX, :PowerPC, :RISCV, :Sparc, :SystemZ,
                           :VE, :WebAssembly, :X86, :XCore]
 
 function backends()
