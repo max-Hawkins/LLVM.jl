@@ -1956,6 +1956,8 @@ end
     LLVMMSP430BUILTINCallConv = 94
     LLVMAMDGPULSCallConv = 95
     LLVMAMDGPUESCallConv = 96
+    LLVMMETALFUNCCallConv = 102
+    LLVMMETALKERNELCallConv = 103
 end
 
 @cenum LLVMValueKind::UInt32 begin
